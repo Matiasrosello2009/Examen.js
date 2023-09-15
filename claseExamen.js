@@ -14,9 +14,9 @@ function salarioMarcos(salarioMensual)
 
 function calcularPromedio(nota1, nota2, nota3)
 {
-    let nota1 = prompt('Ingresa la primera nota')
-    let nota2 = prompt('Ingresa la segunda nota')
-    let nota3 = prompt('Ingresa la tercera nota')
+    let nota1 = Number(prompt('Ingresa la primera nota'))
+    let nota2 = Number(prompt('Ingresa la segunda nota'))
+    let nota3 = Number(prompt('Ingresa la tercera nota'))
     let resultadoPromedio = (nota1+nota2+nota3)/ 3
     return alert('Tu promedio es: '+ resultadoPromedio)
 }
